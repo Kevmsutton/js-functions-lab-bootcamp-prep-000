@@ -2,13 +2,11 @@ function happyHolidays(){
   return "Happy holidays!"
   }
 
-function happyHolidaysTo(name)
-happyHolidaysTo (`Happy holidays, ${name}!`)
-return happyHolidaysTo
+function happyHolidaysTo(name){
+return (`Happy holidays, ${name}!`)}
 
-function happyHolidayTo (holiday, name)
-happyHolidayTo (`Happy ${holiday}, ${name}`)
-return happyHolidayTo
+function happyHolidayTo (holiday, name){
+return (`Happy ${holiday}, ${name}`)}
 
-function holidayCountdown (days, holiday)
-holidayCountdown (`It's ${days} days until ${holiday}!`)
+function holidayCountdown (days, holiday){
+return (`It's ${days} days until ${holiday}!`)}
